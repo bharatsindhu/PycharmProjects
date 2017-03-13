@@ -22,7 +22,7 @@ def get_single_item_data(item_url):
     soup = BeautifulSoup(plaintext,"html.parser")
     for item_name in soup.findAll('div',{'class':'price-box'}):
         for item_price in item_name.findAll('span', {'class': 'price'}):
-            print(item_price.string);;
+            print(item_price.string)
 
 
 
