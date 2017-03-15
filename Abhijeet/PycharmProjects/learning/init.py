@@ -20,6 +20,9 @@ class Enemy:
 jason = Enemy(5)
 sandy = Enemy(18)
 
+jason.__init__(12)
+jason.__init__(14)
+#jason.get_energy_level()
+#sandy.get_energy_level()
 
-jason.get_energy_level()
-sandy.get_energy_level()
+
