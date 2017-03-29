@@ -12,7 +12,7 @@ def download_web_image(url):
 def spider(max_pages):
     page =1
     while page <= max_pages:
-        url = 'http://kimaya.in/occasion/bridal?p=' + str(page)
+        url = 'http://xxxxx/occasion/bridal?p=' + str(page)
         sourcecode= requests.get(url)
         plaintext = sourcecode.text
         soup = BeautifulSoup(plaintext,"html.parser")
