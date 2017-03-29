@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 def spider(max_pages):
     page =1
     while page <= max_pages:
-        url = 'http://kimaya.in/occasion/bridal?p=' + str(page)
+        url = 'http://xxxx/occasion/bridal?p=' + str(page)
         sourcecode= requests.get(url)
         plaintext = sourcecode.text
         soup = BeautifulSoup(plaintext,"html.parser")
